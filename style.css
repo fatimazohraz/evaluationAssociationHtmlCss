@@ -1,7 +1,9 @@
-.contener1{
+.contenerheader{
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+    margin-bottom: 40px;
 
 
 }
@@ -9,8 +11,9 @@
 .contener2{
     display: flex;
     text-align: center;
+    align-items: center;
     list-style-type: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
     width: 50%;
     justify-content: space-between;
 
@@ -42,6 +45,7 @@ img{
     display: flex;
     justify-content:space-around;
     width: 100%;
+    margin-bottom: 50px;
 }
 .contenersection4-logo div{
 
@@ -49,37 +53,61 @@ img{
     flex-direction: column;
     align-items: center;
 }
+.bouttonSection4{
+    background-color:#425592 ;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    padding: 10px;
+    margin: 50px;
 
+}
+.contenersection4 h2{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 50px;
+   font-size: 50px;
+
+
+}
+.contenersection4-logo h2{
+    color: rgb(7, 97, 7);
+}
+.contenersection4-logo p {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
 .contenersection4 img {
-    background-color: none;
+
+    margin-bottom: 50px;
 }
 /*fin css section4*/
+ 
+
+/*css footer*/
 
 .contener-foot{
     display: flex;
     flex-direction: column;
-    background-color: darkblue;
+    background-color: #425592;
     color: aliceblue;
-    width: 100%;
-    height: 100%;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding: 60px;
+    
+ 
 
 }
 .contener-foot1{
     display: flex;
+    justify-content: space-between;
     color: antiquewhite;
-    width: 100%;
-    height: 100%;
-    column-gap: 20px;
-
 }
 .contener-foot2{
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
     align-items: center ;
-    margin: 30px;
+    margin-top: 60px;
     width: 30%;
 }
 .logofooter {
@@ -107,4 +135,8 @@ img{
 h2{
     text-align: left;
     display: block;
+}
+
+.contener-foot1 h2{
+    text-transform: uppercase;
 }
