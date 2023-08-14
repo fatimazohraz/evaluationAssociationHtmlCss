@@ -48,6 +48,11 @@ img{
     display: flex;
     justify-content: space-around;
     margin-bottom: 60px;
+    background-color: rgb(202, 245, 231);
+    align-items: center;
+}
+.plusDinfo{
+    display: flex;
 }
 .contenerSection3Part2{
     display: flex;
@@ -60,6 +65,57 @@ img{
     text-transform: uppercase;
     font-size: 35px;
     font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contenerSection3Part2 li, p, h3, h4 {
+    margin-bottom: 20px;
+}
+.contenerSection3Part2 button{
+    padding: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.section3div1 button{
+    background-color:#7A354A ;
+    color: #FFFFFF;
+}
+
+.section3div2 button{
+    background-color: #D84F61;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.section3div3 button{
+    background-color:#64b055 ;
+    color: #FFFFFF;
+    margin-top: 20px ;
+
+}
+.section3div1{
+
+    background-color: #D84F61;
+    color: #FFFFFF;
+    padding: 30px;
+    text-align: left;
+    justify-content: center;
+}
+
+.section3div2{
+    background-color:#7A354A ;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.section3div3{
+    background-color:#F1A93A ;
+    padding:30px;
+
 }
 /*fin css section3*/
 /*css section4 */
