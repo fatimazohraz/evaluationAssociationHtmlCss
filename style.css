@@ -1,4 +1,7 @@
 /* css header*/
+body{
+    
+}
 .contenerheader{
     display: flex;
     justify-content: space-around;
@@ -46,10 +49,16 @@ img{
 }
 .contenerSection3Part1{
     display: flex;
-    justify-content: space-around;
     margin-bottom: 60px;
     background-color: rgb(202, 245, 231);
     align-items: center;
+    padding: 20px;
+}
+.contenerSection3Part1 img{
+    width: 25%;
+}
+.newsletters{
+    width: 35%;
 }
 .plusDinfo{
     display: flex;
@@ -137,7 +146,7 @@ img{
     align-items: center;
 }
 .bouttonSection4{
-    background-color:#425592 ;
+    background-color: #293075;
     color: white;
     text-transform: uppercase;
     font-size: 15px;
@@ -173,7 +182,7 @@ img{
 .contener-foot{
     display: flex;
     flex-direction: column;
-    background-color: #425592;
+    background-color: #293075;
     color: aliceblue;
     padding: 60px;
     
