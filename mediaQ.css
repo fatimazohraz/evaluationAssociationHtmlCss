@@ -1,0 +1,26 @@
+@media screen and (max-width:680px) {
+    .contenernav {
+        flex-direction: column;
+    
+
+    }
+    nav .contener2{
+     width: 100%; 
+     margin-top:20px ;
+        
+    }
+    .contener-foot1{
+        flex-direction: column;
+    }
+}
+
+@media screen and  (min-width:680px) and (max-width:1024px)  {
+    .contenernav {
+
+        justify-content: space-between;
+    }
+    nav .contener2{
+        width: 75%;
+    }
+    
+}

@@ -1,8 +1,8 @@
-/* css header*/
+/* css nav*/
 body{
     
 }
-.contenerheader{
+.contenernav{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -31,7 +31,7 @@ a {
     margin: 0px;
     padding: 0px;
 }
-header a {
+nav a {
             color: black;
 
 }
@@ -39,7 +39,7 @@ img{
     width: 130px;
     height: 90px;
 }
-/*fin css header*/
+/*fin css nav*/
 
 /*css section3*/
 
