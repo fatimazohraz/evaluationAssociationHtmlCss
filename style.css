@@ -1,3 +1,7 @@
+.flux {
+    margin-left: 25px;
+    margin-right: 25px;
+}
 /* css nav*/
 body{
     
@@ -39,7 +43,16 @@ img{
     width: 130px;
     height: 90px;
 }
-/*fin css nav*/
+/*fin css nav */
+/*css section2 */
+
+/*fin css section */
+.contenersection2 {
+    display: flex;
+}
+.contenersection2Right {
+    display: flex;
+}
 
 /*css section3*/
 
@@ -50,9 +63,11 @@ img{
 .contenerSection3Part1{
     display: flex;
     margin-bottom: 60px;
+    margin-top: 60px;
+    padding: 20px;
+    justify-content: space-around;
     background-color: rgb(202, 245, 231);
     align-items: center;
-    padding: 20px;
 }
 .contenerSection3Part1 img{
     width: 25%;
@@ -127,6 +142,7 @@ img{
 
 }
 /*fin css section3*/
+
 /*css section4 */
 .contenersection4{
     display: flex;

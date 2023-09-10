@@ -11,6 +11,11 @@
     }
     .contener-foot1{
         flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .contener-foot2 {
+    
     }
 }
 
