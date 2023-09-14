@@ -8,22 +8,24 @@ body{
 }
 .contenernav{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     font-weight: bolder;
     margin-bottom: 40px;
-
+    flex-direction: column; 
+    margin-top:20px 
 
 }
 
 .contener2{
     display: flex;
-    text-align: center;
     align-items: center;
     list-style-type: none;
     text-transform: uppercase;
-    width: 50%;
     justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+
+    
 
 }
 a {
@@ -36,7 +38,7 @@ a {
     padding: 0px;
 }
 nav a {
-            color: black;
+    color: black;
 
 }
 img{
@@ -45,14 +47,23 @@ img{
 }
 /*fin css nav */
 /*css section2 */
-
-/*fin css section */
 .contenersection2 {
     display: flex;
+    background-color: #7A354A;
 }
 .contenersection2Right {
     display: flex;
+    flex-direction: column;
+
+    background-color: #293075;
 }
+
+.contenersection2Left{
+    background-color: #F1A93A;
+    width: 30%;
+}
+/*fin css section2 */
+
 
 /*css section3*/
 
@@ -83,6 +94,7 @@ img{
     justify-content: space-around;
     margin-bottom: 60px;
     text-align: center;
+    flex-direction: column;
 }
 .contenerSection3 h2{
     font-family: 'Amatic SC', cursive;
@@ -91,6 +103,7 @@ img{
     font-weight: bolder;
     text-align: center;
     margin-bottom: 20px;
+    
 }
 .contenerSection3Part2 li, p, h3, h4 {
     margin-bottom: 20px;
