@@ -2,10 +2,21 @@
     margin-left: 25px;
     margin-right: 25px;
 }
-/* css nav*/
-body{
-    
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
+ul{
+    list-style-type: none;
+}
+h2{
+    text-align: left;
+    display: ;
+}
+
+/* css nav*/
+
 .contenernav{
     display: flex;
     align-items: center;
@@ -33,10 +44,7 @@ a {
     font-weight:;
     color: inherit;
 }
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 nav a {
     color: black;
 
@@ -46,10 +54,11 @@ img{
     height: 90px;
 }
 /*fin css nav */
-/*css section2 */
+/*css section1 */
 .contenersection2 {
     display: flex;
     background-color: #7A354A;
+    
 }
 .contenersection2Right {
     display: flex;
@@ -62,15 +71,9 @@ img{
     background-color: #F1A93A;
     width: 30%;
 }
-/*fin css section2 */
+/*fin css section1 */
 
-
-/*css section3*/
-
-.contenerSection3{
-    display: flex;
-    flex-direction: column;
-}
+/*debut css section2 */
 .contenerSection3Part1{
     display: flex;
     margin-bottom: 60px;
@@ -89,14 +92,22 @@ img{
 .plusDinfo{
     display: flex;
 }
+
+
+
+
+/*fin css section2 */
+
+/*css section3*/
+
 .contenerSection3Part2{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 60px;
     text-align: center;
     flex-direction: column;
 }
-.contenerSection3 h2{
+.contenerSection3Part2 h2{
     font-family: 'Amatic SC', cursive;
     text-transform: uppercase;
     font-size: 35px;
@@ -107,6 +118,7 @@ img{
 }
 .contenerSection3Part2 li, p, h3, h4 {
     margin-bottom: 20px;
+    text-align: center;
 }
 .contenerSection3Part2 button{
     padding: 15px;
@@ -137,7 +149,7 @@ img{
     background-color: #D84F61;
     color: #FFFFFF;
     padding: 30px;
-    text-align: left;
+    text-align: center;
     justify-content: center;
 }
 
@@ -157,38 +169,44 @@ img{
 /*fin css section3*/
 
 /*css section4 */
+
 .contenersection4{
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
+   
+    
 }
 .contenersection4-logo {
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
+
 .contenersection4-logo div{
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
-.bouttonSection4{
-    background-color: #293075;
-    color: white;
+.bouttonSection4 button{
+    color: rgb(250, 249, 253);
     text-transform: uppercase;
     font-size: 15px;
     font-weight: bold;
-    height: 20px;
     padding: 10px;
-    margin: 50px;
-
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #293075;
+    border-radius: 10px;
 }
 .contenersection4 h2{
     font-family: 'Amatic SC', cursive;
-    font-weight: 50px;
-   font-size: 50px;
+    font-weight: 30px;
+    font-size: 30px;
 
 
 }
@@ -198,10 +216,11 @@ img{
 .contenersection4-logo p {
     text-transform: uppercase;
     font-weight: bolder;
+    font-size: 10px;
 }
 .contenersection4 img {
 
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 /*fin css section4*/
  
@@ -211,25 +230,32 @@ img{
 .contener-foot{
     display: flex;
     flex-direction: column;
-    background-color: #293075;
+    background-color: #a8aeeb;
     color: aliceblue;
-    padding: 60px;
-    
+    padding: 30px;
+    border-radius: 10px;
  
 
 }
 .contener-foot1{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     color: antiquewhite;
+    align-items: center ;
+    text-align: center;
 }
+.contener-foot1 h2{
+    text-transform: uppercase;
+}
+
 .contener-foot2{
     display: flex;
-    align-items: flex-start;
     justify-content: space-around;
     align-items: center ;
+    text-align: center;
     margin-top: 60px;
-    width: 30%;
+   
 }
 .logofooter {
     width: 30px;
@@ -237,27 +263,7 @@ img{
 }
 
 
-
- ul{
-    list-style-type: none;
- 
- }
  footer a {
-    color: antiquewhite;
+    color: rgb(238, 206, 163);
  }
- footer div{
-    display: flex;
-    flex-direction: column;
 
-}
-
-
-
-h2{
-    text-align: left;
-    display: block;
-}
-
-.contener-foot1 h2{
-    text-transform: uppercase;
-}

@@ -7,18 +7,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cabin:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="asset/style/style.css">
+    <link rel="stylesheet" href="asset/style/mediaQ.css">
 
 </head>
 <body>
     <!--debut nav-->
 <nav class="contenernav">
-   <a href=""><img src="asset/image/logo.jpg" alt=""></a> 
+   <a href="index.html"><img src="asset/image/logo.jpg" alt=""></a> 
     <ul class="contener2">
         <li><a href="">découvrire</a></li>
         <li><a href="">s'informer</a></li>
-        <li><a href="">adérer</a></li>
+        <li><a href="formulaireAdéssion.html">adérer</a></li>
         <li><a href="">sengager</a></li>
     </ul>
 </nav>
@@ -27,13 +27,8 @@
 
     <!--debut main-->
 <main>
-    <!--section1 main-->
-    <section>
-
-    </section>
-    <!-- fin section1 main-->
-
-    <!--section2 main-->
+    
+    <!--section1-->
     <section class="contenersection2 flux">
         
         <div class="contenersection2Left">
@@ -72,15 +67,18 @@
         </div>
 
     </section>
-    <!--fin section2 main>
+    <!--fin section1-->
 
-    <!-section3 main-->
-    <section class="contenerSection3 flux"  >
+    <!--debut section2-->
+    <section>
         <div class="contenerSection3Part1">
             <img src="asset/image/imageSection3.png" alt="image section3">
             <div class="lettreDinformation">
-                <h2>la lettre d'informetion</h2>
-                <p>lettre d'information de la fcpe - 7 juillet 2023</p>
+                <div>
+                    <h2>la lettre d'informetion</h2>
+                    <p>lettre d'information de la fcpe - 7 juillet 2023</p>
+                </div>
+                
                 <div class="plusDinfo">
                     <p>voir toutes les lettre d'info</p>
                     <a href=""><img src="" alt="logo+"></a>
@@ -88,17 +86,24 @@
                 
             </div>
             <div class="newsletters">
-                <h2>inscription newsletters</h2>
+                <h4>inscription newsletters</h4>
                
                 <form>
-                    
                     <input type="text" placeholder="ex:exple@email.com">
                 </form>
 
             </div>
 
         </div>
-        <div class="contenerSection3Part2">
+
+
+        
+    </section>
+    <!--fin section2-->
+
+    <!--section3 -->
+    
+        <div class="contenerSection3Part2 flux">
             <div class="section3div1">
                 <h2>pour quoi adherer</h2>
                 <ul>
@@ -106,11 +111,11 @@
                     <li>La FCPE accompagne tous les parents</li>
                     <li>La FCPE organise la solidarité</li>
                 </ul>
-                <button>adherer a la fcpe</button>
+                <a href=""><button>adherer a la fcpe</button></a>
             </div>
             <div class="section3div2">
                 <h2> votre espace personelle</h2>
-                <h3>vous etes adhrant</h3>
+                <h4>vous etes adhrant</h4>
                 <p>accédez à votre espace et bénéficiez de tous nos services</p>
                 <a href=""><button>se connecter</button> </a>
             </div>
@@ -122,39 +127,42 @@
             </div>
            
         </div>
-
+    
     </section>
-    <!--fin section3 main>
+    <!--fin section3 >
 
-    <!-section4 main-->
-    <section class="contenersection4">
-        <h2>les chifre-clé</h2>
-        <img src="asset/image/imageLigneSection4.jpg" alt="logo ligne">
-        <div class="contenersection4-logo">
+    <!-section4 -->
+    <section class="contenersection4 ">
+        <div class="chifreClé">
+            <h2>les chifre-clé</h2>
+            <img src="asset/image/imageLigneSection4.jpg" alt="logo ligne">
+        </div>
+        
+        <div class="contenersection4-logo flux">
             <div>
-                <img src="asset/image/image1section4.jpg" alt="">
+                <img src="asset/image/image1section4.jpg" alt="image adherant">
                 <h2>140000</h2>
                 <p>adhérant</p>
             </div>
             <div>
-                <img src="asset/image/image2Section4.jpg" alt="">
+                <img src="asset/image/image2Section4.jpg" alt="image famille">
                 <h2>40000</h2>
                 <p>parents d'éleves élus</p>
             </div>
             <div>
-                <img src="asset/image/image3section4.jpg" alt="">
+                <img src="asset/image/image3section4.jpg" alt="image message">
                 <h2>5000</h2>
                 <p>conseils locaux</p>
             </div>
             <div>
                 <img src="asset/image/image4Section4.jpg" alt="globe terstre">
                 <h2>102</h2>
-                <p>conseils departementaux</p>
+                <p>conseils départementaux</p>
             </div>
             
         </div>
         <div class="bouttonSection4">
-            <a href=""><p>decouvrire la fcpe</p></a>
+            <a href=""><button>decouvrire la fcpe</button></a>
         </div>
     </section>
     <!--fin section4 main-->
@@ -162,9 +170,9 @@
 </main>
     <!--fin main-->
 <!--debut footer-->
-<footer class="contener-foot">
-    <section class="contener-foot1">
-        <div>
+<footer class="contener-foot flux">
+    <section >
+        <div class="contener-foot1">
             <a href=""><img src="asset/image/imageFcpe-footer.png" alt="imageFcpeFooter" class="imgFooter"></a>
             <ul>
                 <li>adress</li>
@@ -172,59 +180,17 @@
             </ul>
         
         </div>
-        <div>
-            <h2>decouvrire</h2>
-            <ul>
-                <li><a href="">qui somme nous?</a></li>
-                <li><a href="">a FCPE pres de chez vousl</a></li>
-                <li><a href="">notre projet pour l'école</a></li>
-                <li><a href="">ce que disent les chercheur</a></li>
-                <li><a href="">nos deniére comunoté </a></li>
-                <li><a href="">la boutique</a></li>
-            </ul>
-        </div>
-        <div>
-            <h2>s'informer</h2>
-            <ul>
-                <li><a href="">actualité</a></li>
-                <li><a href="">conseils au parent</a></li>
-                <li><a href="">lettre d'infos</a></li>
-                <li><a href="">revue des parents</a></li>
-            </ul>
-        </div>
-        <div>
-            <h2>Aderer</h2>
-            <ul>
-                <li><a href="">pour quoi adhérer</a></li>
-                <li><a href="">nous contacter</a></li>
-            </ul>
-        </div>
-        <div>
-            <h2>S'engager</h2>
-            <ul>
-                <li><a href="">nos compagne</a></li>
-                <li><a href="">monter une compagne</a></li>
-                <li><a href="">signer une pétition</a></li>
-                <li><a href="">s'engager dans son établissement</a></li>
-                <li><a href="">se former</a></li>
-            </ul>
-        </div>
-        <div>
-            <h2>espece personelle</h2>
-            <ul>
-                <li><a href="">adhérant</a></li>
-                <li><a href="">presse</a></li>
-                <li><a href="">espace militant</a></li>
-            </ul>
-        </div>
+        
     </section>
-    <section class="contener-foot2">
-        <h2>suiver nous</h2>
-        <a href="https://fr-fr.facebook.com/" target="_blank"><img src="asset/image/Facebooklogo.webp" alt="logo facebook" class="logofooter"></a>
-        <a href="https://twitter.com/?lang=fr" target="_blank"><img src="asset/image/logoTwitter.png" alt="logo twiter" class="logofooter"></a>
+    <section >
+        <div class="contener-foot2">
+          <h2>suiver nous</h2>
+          <a href="https://fr-fr.facebook.com/" target="_blank"><img src="asset/image/Facebooklogo.webp" alt="logo facebook" class="logofooter"></a>
+          <a href="https://twitter.com/?lang=fr" target="_blank"><img src="asset/image/logoTwitter.png" alt="logo twiter" class="logofooter"></a>
+       </div>
     </section>
 </footer>
 <!--fin footer-->
-    <script src="script.js"></script>
+    
 </body>
 </html>
