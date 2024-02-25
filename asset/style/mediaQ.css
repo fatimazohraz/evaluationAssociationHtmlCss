@@ -10,7 +10,12 @@
     width: 25%;
    }
    .contenerSection3 {
-      flex-direction: 
+      flex-direction:; 
+   }
+
+   /*section3*/
+   .contenerSection3Part1{
+      flex-direction:row;
    }
    /*section4*/
    
