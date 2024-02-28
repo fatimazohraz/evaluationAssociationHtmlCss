@@ -15,8 +15,22 @@
 
    /*section3*/
    .contenerSection3Part1{
-      flex-direction:row;
+      flex-direction:row ;
    }
+   .contenerSection3Part1 img{
+      width: 35%;
+      height: 60%;
+   }
+
+   .plusDinfo{
+      width: 35%;
+      height: 60%;
+   }
+   .newsletters{
+      width: 30%;
+      height: 60%;
+   }
+  
    /*section4*/
    
    .contenersection4-logo {
@@ -39,6 +53,7 @@
 /*media computer*/
 
 @media screen and (min-width:1024px) {
+   /*header----------------------------------------------*/
    .contenernav {
     flex-direction: row;
    }
@@ -48,18 +63,37 @@
    .contenernav ul{
     justify-content: space-around;
    }
-   /*section3*/
+   /*section2-------------------------------------------*/
+   .contenerSection3Part1 {
+      flex-direction: row;
+   }
+   .contenerSection3Part1 img{
+      width: 35%;
+      height: 60%;
+   }
+
+   .plusDinfo{
+      width: 35%;
+      height: 60%;
+   }
+   .newsletters{
+      width: 30%;
+      height: 60%;
+   }
+
+   /*section3--------------------------------------------*/
+
    .contenerSection3Part2{
       flex-direction: row;
    }
-   /*section4*/
+   /*section4--------------------------------------------*/
    .contenersection4-logo {
       justify-content: space-around;
       width:75% ; 
-      
-   /*footer*/
+   } 
+   /*footer---------------------------------------------*/
    .contener-foot2{
-      width: %;
+      
    }
 }
 /*fin media computer*/
