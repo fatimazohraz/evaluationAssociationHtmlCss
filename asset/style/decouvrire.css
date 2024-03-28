@@ -1,0 +1,23 @@
+.flux {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lora", serif;
+
+  }
+
+
+
+span {
+text-transform: uppercase;
+}
+
+.decouvrireS1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
