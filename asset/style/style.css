@@ -16,7 +16,7 @@ h2{
     text-align: left;
     
 }
-
+ /*style index.html */
 /* css nav*/
 
 .contenernav{
@@ -312,3 +312,15 @@ img{
     color: rgb(238, 206, 163);
  }
 
+/*fin style index.html*/
+
+/* debut style decouvrire.html */
+span {
+    text-transform: uppercase;
+    }
+    
+    .decouvrireS1{
+        
+    }
+
+/* fin style decouvrire.html */
